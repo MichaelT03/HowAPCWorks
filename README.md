@@ -4,4 +4,5 @@
 
 ### Created by Michael Trout & Britany Cooper for MACC's Web Design 2 course
 
-### Color Pallet: https://colorhunt.co/palette/0000000f629216ff00ffed00
+## Color Pallet:
+- Green: #39ff14
