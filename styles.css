@@ -6,8 +6,9 @@ body {
     color: whitesmoke;
 }
 
-a:hover {
+a.nav-link:hover {
     cursor: pointer;
+    text-decoration: underline #39FF14;
 }
 
 hr {
@@ -16,4 +17,38 @@ hr {
     color: #39FF14;
     margin: 1rem auto;
     width: 95%;
+}
+
+h1, h2 {
+    text-decoration: underline #39FF14;
+}
+
+img.pc_img {
+    height: auto;
+    max-width: 50%;
+}
+
+p.pc_txt {
+    padding: 4em 0;
+}
+
+@media screen and (max-width: 990px) {
+    img.pc_img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    img.pc_img {
+        display: block;
+        height: auto;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p.pc_txt {
+        padding: 0;
+    }
 }
