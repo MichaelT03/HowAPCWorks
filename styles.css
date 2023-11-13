@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+hr {
+    border-style: solid;
+    border-width: 1px 0px;
+    color: #39FF14;
+    margin: 1rem auto;
+    width: 95%;
+}
