@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    color: whitesmoke;
+}
+
 a:hover {
     cursor: pointer;
 }
