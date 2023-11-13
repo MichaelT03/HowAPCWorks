@@ -6,3 +6,6 @@
 
 ## Color Pallet:
 - Green: #39ff14
+
+## ToDo
+- Add basic layout
