@@ -32,6 +32,21 @@ p.pc_txt {
     padding: 4em 0;
 }
 
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: #39FF14;
+    color: black;
+    cursor: pointer;
+}
+
+#topBtn:hover {
+    background-color: #20CC00;
+}
+
 @media screen and (max-width: 990px) {
     img.pc_img {
         height: auto;
