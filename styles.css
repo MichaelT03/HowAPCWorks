@@ -23,6 +23,18 @@ h1, h2 {
     text-decoration: underline #39FF14;
 }
 
+footer {
+    background-color: #39FF14;
+    color: #332D2D;
+    height: 30px;
+    position: sticky;
+    top: 100%;
+}
+
+footer > div.container {
+    min-height: 100%;
+}
+
 img.pc_img {
     height: auto;
     max-width: 50%;
@@ -30,6 +42,16 @@ img.pc_img {
 
 p.pc_txt {
     padding: 4em 0;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
 }
 
 #topBtn {

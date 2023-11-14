@@ -57,7 +57,7 @@
     <div class="container py-4">
         <div class="row">
             <div class="col-sm-6 text-end">
-                <img class="pc_img text-end" src="images/PCimage.png" alt="PC">
+                <img class="pc_img" src="images/PCimage.png" alt="PC">
             </div>
             <div class="col-sm-6">
                 <p class="pc_txt text-center text-md-start text-lg-start">
@@ -193,6 +193,18 @@
             A GPU performs graphics-related calculations very quickly, they were developed as a way to offload those tasks from 
             CPUs for graphics applications.
         </p>
+        <p class="py-2">
+            Many people that are interested in PCs or PC gaming are familiar with a GPU. Despite how many people know what a GPU
+            is and what it does, many people do not know how it works. The below video demonstrates how a Graphics Processing Unit
+            functions inside of a computer.
+        </p>
+    </div>
+
+    <div class="container text-center video">
+        <iframe src="https://www.youtube.com/embed/SrAMBi_8tIk?si=X0368pglg4u7ADk3" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
     </div>
 
     <hr />
@@ -200,11 +212,19 @@
     <h1 class="text-center text-light h1" id="MBOARD">The Motherboard</h1>
 
     <div class="container text-center py-4">
-        <p>
-            The main printed circuit board in general-purpose computers and other expandable systems. It holds and allows 
-            communication between many of the crucial electronic components of a system, such as the central processing unit 
-            and memory, and provides connectors for other peripherals.
-        </p>
+        <div class="row">
+            <div class="col-sm-6 text-end">
+                <img class="pc_img" src="images/Motherboard.jpg" alt="Motherboard" />
+            </div>
+            <div class="col-sm-6">
+                <p class="pc_txt text-center text-md-start text-lg-start">
+                    The main printed circuit board in general-purpose computers and other expandable systems. It holds and allows 
+                    communication between many of the crucial electronic components of a system, such as the central processing unit 
+                    and memory, and provides connectors for other peripherals.
+                </p>
+            </div>
+        </div>
+        
     </div>
 
     <hr />
@@ -212,9 +232,17 @@
     <h1 class="text-center text-light h1" id="PSU">The PSU - Power Supply Unit</h1>
 
     <div class="container text-center py-4">
-        <p>
-            Hardware device that converts AC electricity into DC electricity and then distributes it to the rest of the computer.
-        </p>
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="pc_txt text-center text-md-end text-lg-end">
+                    Hardware device that converts AC electricity into DC electricity and then distributes it to the rest of the computer.
+                    These can come in a variety of wattages and types which include non-modular, semi-modular, and fully modular.
+                </p>
+            </div>
+            <div class="col-sm-6 text-start">
+                <img class="pc_img" src="images/PSU.jpg" alt="Power Supply" />
+            </div>
+        </div>
     </div>
 
     <hr />
@@ -232,6 +260,12 @@
     <hr />
 
     <h1 class="text-center text-light h1" id="CONTACT">Contact Us</h1>
+
+    <footer class="mt-5">
+        <div class="container my-1 text-center">
+            <p><b>Michael Trout &#38; Britany Cooper &#x2022; Fall 2023</b></p>
+        </div>
+    </footer>
 
     <!-- Button for scrolling back to top of page -->
     <button class="btn btn-success" id="topBtn" title="Go to top">Scroll To Top</button>
