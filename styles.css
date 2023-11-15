@@ -66,6 +66,16 @@ iframe {
     width: 100% !important;
 }
 
+.subBtn {
+    background-color: #39FF14;
+    color: black;
+    margin-left: 2.5em;
+}
+
+.subBtn:hover {
+    background-color: #20CC00;
+}
+
 #topBtn {
     display: none;
     position: fixed;
